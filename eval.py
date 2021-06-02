@@ -35,9 +35,9 @@ def main(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='The evaluation script of HCC MVI.')
-    parser.add_argument('image_folder_path', help='')
-    parser.add_argument('cf_csv_path', help='')
-    parser.add_argument('log_dir_path', help='')
-    parser.add_argument('checkpoint_path', help='')
+    parser.add_argument('image_folder_path', help='the path of the folder that contains input images')
+    parser.add_argument('cf_csv_path', help='the path of the file that contains clinical factors in csv format')
+    parser.add_argument('log_dir_path', help='log directory path')
+    parser.add_argument('checkpoint_path', help='the path of trained model file')
     args = parser.parse_args()
     main(args)
