@@ -1,6 +1,5 @@
 import argparse
 import os
-from PIL import Image
 import torch
 from torchvision import transforms
 from resnet_cf import resnetcf18

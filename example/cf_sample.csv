@@ -1,4 +1,4 @@
-filename,pid,age_normalized,gender_1,tumorSize_normalized,child_1,child_2,child_3,hbv,hcv,afp_normalized
+filename,pid,age,gender,tumorSize,child_a,child_b,child_c,hbv,hcv,afp
 1.png,123,4.429965341,1,1.421652364,1,0,0,0,1,1.783717167
 2.png,456,3.221792976,1,1.421652364,1,0,0,0,1,0.181466367
 3.png,789,2.57743438,1,1.066239273,1,0,0,1,0,0.000650787
