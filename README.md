@@ -1,5 +1,9 @@
 # Predicting Microvascular Invasion (MVI) in Hepatocellular Carcinoma (HCC) Using Deep Learning
 HCC is a common liver cancer existing globally, an HCC with MVI often recurs within 2 years. Estimating MVI preoperatively benefits surgical outcomes of HCC. This code leveraged one of the most common convolutional neural network (CNN), [ResNet](https://arxiv.org/abs/1512.03385), to predict the presence of MVI, but the input of the network was not only CT images but clinical factors including age, gender, maximum tumor diameter (MTD), alpha-fetoprotein (AFP), Child-Pugh score, hepatitis B/C surface antigen (HBsAg and HCsAg). Introducing clinical factors boosted the accuracy of MVI prediction.
+
+## Cite this article
+Liu, SC., Lai, J., Huang, JY. et al. Predicting microvascular invasion in hepatocellular carcinoma: a deep learning model validated across hospitals. Cancer Imaging 21, 56 (2021). https://doi.org/10.1186/s40644-021-00425-3
+
 ## Prerequisites
 Python 3.5 (or above) with the following packages:
 * pytorch 1.5 or above [(installation guide)](https://pytorch.org/get-started/locally/)
